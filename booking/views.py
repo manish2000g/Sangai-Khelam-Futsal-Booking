@@ -1,3 +1,4 @@
+# all functions for booking
 from django.shortcuts import render, redirect, get_object_or_404
 from django.http import HttpResponseRedirect
 from .models import Booking
