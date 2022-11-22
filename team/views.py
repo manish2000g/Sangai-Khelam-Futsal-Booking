@@ -8,7 +8,7 @@ from match.models import Match,MatchObject
 from django.views import generic
 from django.contrib import messages
 from django.db.models import Q
-
+# all functions for team
 class TeamIndexView(LoginRequiredMixin, generic.ListView):
     model = Team
     template_name = 'team/index.html'
