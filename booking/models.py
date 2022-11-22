@@ -2,7 +2,7 @@ from django.db import models
 import datetime
 from django.contrib.auth.models import User
 from futsalApp.models import Futsal
-
+#  all models related to models
 class Booking(models.Model):
     fullname  = models.CharField(max_length=100)
     phone     = models.PositiveIntegerField()
