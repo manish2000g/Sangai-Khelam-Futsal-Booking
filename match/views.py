@@ -9,7 +9,7 @@ from .models import Match, MatchObject
 from .forms import MatchForm
 import datetime
 from django.db.models import Q
-
+#  all functions for match
 class MatchIndexView(LoginRequiredMixin, generic.ListView):
     model = Match
     template_name = 'match/index.html'
