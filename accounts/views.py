@@ -14,7 +14,7 @@ from django.views import generic
 import datetime
 from django.contrib.auth.mixins import LoginRequiredMixin
 # Create your views here.
-
+# all functions
 def RegisterView(request):
     if request.method == "POST":
         form = UserRegistrationForm(request.POST or None)
