@@ -5,7 +5,7 @@ from django.db.models.signals import post_save
 from PIL import Image
 from futsalApp.models import Futsal
 # Create your models here.
-
+# all models
 class Profile(models.Model):
     user       = models.OneToOneField(User,on_delete=models.CASCADE)
     avatar     = models.ImageField(default='default.png', upload_to='Profile')
