@@ -10,7 +10,7 @@ from futsalApp.models import Futsal
 from django.db.models import Q
 import datetime
 from django.contrib import messages
-
+# create function
 class CreateBookingView(LoginRequiredMixin,generic.CreateView):
     model = Booking
     template_name = 'booking/create.html'
